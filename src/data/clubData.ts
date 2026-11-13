@@ -1,3 +1,14 @@
+import activityTrainingImg from '../assets/images/activity_training_rally_1794606482384.jpg';
+import logoImg from '../assets/images/atm_arapongas_logo_1794606480476.jpg';
+import galleryCommunityImg from '../assets/images/gallery_community_play_1794606484536.jpg';
+import galleryRacketBallImg from '../assets/images/gallery_racket_ball_1794606482484.jpg';
+import galleryServeFocusImg from '../assets/images/gallery_serve_focus_1794606713452.jpg';
+import galleryTablesHallImg from '../assets/images/gallery_tables_hall_1794606483970.jpg';
+import heroCinematicImg from '../assets/images/hero_cinematic_action_1794606711701.jpg';
+import heroTableTennisImg from '../assets/images/hero_table_tennis_1794606481926.jpg';
+import locationAtmosphereImg from '../assets/images/location_club_atmosphere_1794606712685.jpg';
+import manifestoCommunityImg from '../assets/images/manifesto_community_wide_1794606712744.jpg';
+
 export interface ActivityItem {
   id: string;
   index: string;
@@ -34,36 +45,36 @@ export interface GalleryFrame {
  */
 export const CLUB_ASSETS = {
   logo: {
-    src: '/src/assets/images/atm_arapongas_logo_1794606480476.jpg',
+    src: logoImg,
     alt: 'Logotipo oficial do ATM Arapongas — mascote araponga segurando duas raquetes de tênis de mesa dentro de emblema circular',
   },
   heroPhoto: {
-    src: '/src/assets/images/hero_cinematic_action_1794606711701.jpg',
+    src: heroCinematicImg,
     alt: 'Jogador de tênis de mesa em movimento executando golpe ofensivo com raquete e bolinha em suspensão sobre a mesa',
     caption: 'Ilustração editorial — ação esportiva em quadra',
   },
   manifestoPhoto: {
-    src: '/src/assets/images/manifesto_community_wide_1794606712744.jpg',
+    src: manifestoCommunityImg,
     alt: 'Pessoas de diferentes idades jogando tênis de mesa em mesas alinhadas sob luz natural',
     caption: 'Ilustração editorial — prática aberta entre gerações',
   },
   activitiesMainPhoto: {
-    src: '/src/assets/images/activity_training_rally_1794606482384.jpg',
+    src: activityTrainingImg,
     alt: 'Atleta em movimento executando forehand com bola branca sobre a rede',
     caption: 'Ilustração editorial — ritmo de treinamento',
   },
   activitiesSecondaryPhoto: {
-    src: '/src/assets/images/hero_table_tennis_1794606481926.jpg',
+    src: heroTableTennisImg,
     alt: 'Dois jogadores em partida de tênis de mesa em ginásio comunitário',
     caption: 'Ilustração editorial — disputa de pontos na mesa',
   },
   locationPhoto: {
-    src: '/src/assets/images/location_club_atmosphere_1794606712685.jpg',
+    src: locationAtmosphereImg,
     alt: 'Mesa de tênis de mesa com raquetes e bolinhas prontas ao lado de janelas iluminadas',
     caption: 'Ilustração editorial — ambiente de acolhimento para prática',
   },
   closingPhoto: {
-    src: '/src/assets/images/gallery_serve_focus_1794606713452.jpg',
+    src: galleryServeFocusImg,
     alt: 'Detalhe de saque no tênis de mesa com bola branca lançada ao ar e raquete posicionada',
     caption: 'Ilustração editorial — início de ponto',
   },
@@ -171,7 +182,7 @@ export const SCHEDULE_SESSIONS: ScheduleSession[] = [
 export const GALLERY_FRAMES: GalleryFrame[] = [
   {
     id: 'salao',
-    src: '/src/assets/images/gallery_tables_hall_1794606483970.jpg',
+    src: galleryTablesHallImg,
     alt: 'Salão esportivo amplo com mesas de tênis de mesa dispostas em perspectiva',
     caption: 'Ambiente de prática coletiva com múltiplas mesas e fluxo dinâmico entre partidas.',
     category: 'Espaço & Mesas',
@@ -181,7 +192,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
   },
   {
     id: 'convivencia',
-    src: '/src/assets/images/gallery_community_play_1794606484536.jpg',
+    src: galleryCommunityImg,
     alt: 'Dois praticantes de idades diferentes conversando ao lado da mesa com raquetes nas mãos',
     caption: 'Convivência entre gerações nos intervalos de jogo.',
     category: 'Comunidade',
@@ -191,7 +202,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
   },
   {
     id: 'equipamento',
-    src: '/src/assets/images/gallery_racket_ball_1794606482484.jpg',
+    src: galleryRacketBallImg,
     alt: 'Duas raquetes clássicas de madeira e borracha preta ao lado de uma bolinha branca sobre a mesa',
     caption: 'Madeira, borracha e bola 40+: foco nos fundamentos do jogo.',
     category: 'Equipamento',
@@ -201,7 +212,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
   },
   {
     id: 'saque',
-    src: '/src/assets/images/gallery_serve_focus_1794606713452.jpg',
+    src: galleryServeFocusImg,
     alt: 'Detalhe aproximado da mão lançando a bolinha branca no momento do saque com raquete preparada',
     caption: 'Precisão no lançamento e preparação do saque na linha de fundo.',
     category: 'Movimento',
